@@ -84,7 +84,7 @@ solo.velocityX = -score/5 -3;
         }
         console.log( Math.round( random( 50,450 ) ) )
         score +=0.3
-        text(Math.round(score),width-300,height-300)
+        text(Math.round(score),width/1.5,height/2)
         pulo = -score/25 -13 -anger
 
         
